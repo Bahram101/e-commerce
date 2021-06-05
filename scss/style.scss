@@ -1,0 +1,333 @@
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+
+
+.wrapper{
+    display: flex;
+    aside{
+        width: 27%;
+        padding:25px;
+        background: #F6F6F6;
+        .logo{
+            img{
+                width: 40px;
+                box-shadow: 0 0 16px rgb(0 54 35 / 50%);
+                border-radius: 8px;
+            }
+        }
+        .iconLion{
+            width: 80px;
+            height: 80px;
+            background: #FFE67D;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+        .account{
+            .name{
+                font-weight: 500;
+                i{
+                    margin-left: 15px;
+                }
+            }
+            .status{
+                font-size: 12px;
+                color: rgba(60, 60, 67, 0.6);
+            }
+        }
+        .date{
+            margin-top: 40px;
+            font-size: 16px;
+            color: rgba(60, 60, 67, 0.6);
+            .day{
+                margin-bottom: 24px;
+            }
+            .line{
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 18px;
+                .left{
+                    display: flex;
+                    align-items: center;
+                    .icon{
+                        position: relative;
+                        img{
+                            width:40px;
+                            height:40px;
+                            border-radius:50%;
+                        }
+                        .dollar{
+                            -webkit-box-shadow: 0 2px 16px rgba(53, 119, 190, 0.5);
+                            -moz-box-shadow: 0 2px 16px rgba(53, 119, 190, 0.5);
+                            box-shadow: 0 2px 16px rgba(53, 119, 190, 0.5);
+                        }
+                        .icon-logo{
+                            -webkit-box-shadow: 0 0 16px rgba(16, 9, 32, 0.5);
+                            -moz-box-shadow: 0 0 16px rgba(16, 9, 32, 0.5);
+                            box-shadow: 0 0 16px rgba(16, 9, 32, 0.5);
+                        }
+                        .electr{
+                            -webkit-box-shadow: 0 0 16px #00E4D3;
+                            -moz-box-shadow: 0 0 16px #00E4D3;
+                            box-shadow: 0 0 16px #00E4D3;
+                        }
+                        .ethereum{
+                            position: absolute;
+                            left:50%;
+                            -webkit-box-shadow: 0 0 16px #627EEA;
+                            -moz-box-shadow: 0 0 16px #627EEA;
+                            box-shadow: 0 0 16px #627EEA;
+                        }
+                    }
+
+                    .title{
+                        font-size: 14px;
+                        color: #000;
+                        margin-top: 7px;
+                        margin-left: 18px;
+
+                        p{
+                            font-size: 12px;
+                            color:rgba(60, 60, 67, 0.6);
+                            margin-bottom: 0;
+                        }
+                    }
+                }
+                .money{
+                    font-size: 14px;
+                    color:#000;
+                    margin-top: 10px;
+                }
+            }
+        }
+        .yesterday{
+            .line{
+                &:last-child{
+                    .title{
+                        margin-left:40px !important;
+                    }
+                }
+            }
+        }
+    }
+
+    main{
+        background: #FAFAFC;
+        padding: 104px 160px;
+        width: 73%;
+        .balance{
+            margin-bottom: 40px;
+            .your-balance{
+                font-size: 48px;
+                i{
+
+                }
+            }
+            .info{
+                font-size: 14px;
+                color: rgba(60, 60, 67, 0.6);
+            }
+        }
+        .tokens{
+            display: flex;
+            justify-content: space-between;
+        }
+        .category{
+            margin-bottom: 40px;
+            .line{
+                font-weight: 700;
+                font-size: 24px;
+                display: flex;
+                justify-content: space-between;
+                .title{
+                    font-weight: 700;
+                    font-size: 24px;
+                }
+            }
+            .info{
+                color:rgba(60, 60, 67, 0.6);
+                font-size: 14px;
+            }
+        }
+        .tokens{
+            margin-bottom: 40px;
+            .left,.right{
+                width:46%;
+            }
+        }
+        .debit-card{
+            .line{
+                margin-bottom: 24px;
+            }
+            .debit-card__order{
+                -webkit-box-shadow: 0 4px 16px rgba(0 0 0 / 12%);
+                -moz-box-shadow: 0 4px 16px rgba(0 0 0 / 12%);
+                box-shadow: 0 4px 16px rgba(0 0 0 / 12%);
+                background: #fff;
+                -webkit-border-radius: 8px;
+                -moz-border-radius: 8px;
+                border-radius: 8px;
+                padding: 24px;
+                margin-bottom: 40px;
+                .order-head{
+                    display: flex;
+                    justify-content: space-between;
+                    .order-left{
+                        .title{
+                            font-weight: 700;
+                            font-size: 24px;
+                        }
+                        .info{
+
+                        }
+                    }
+                }
+                .order-footer{
+                    margin-top: 24px;
+                    display: flex;
+                    .order-card{
+                        height: 40px;
+                        width: 148px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        background: #000;
+                        color:#fff;
+                        border-radius: 25px;
+                        margin-right: 16px;
+                    }
+                    .close{
+                        background: #000;
+                        width:40px;
+                        height: 40px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        color:white;
+                        -webkit-border-radius: 50%;
+                        -moz-border-radius: 50%;
+                        border-radius: 50%;
+
+                    }
+                }
+            }
+        }
+        .governance{
+            .line{
+                margin-bottom: 24px;
+            }
+            .governance_footer{
+                display: flex;
+                justify-content: space-between;
+                .governance-analys{
+                    display: flex;
+                    .analys-progress{
+                        margin-right: 9px;
+                    }
+                }
+                .governance-vote{
+                    background: #000;
+                    width: 91px;
+                    height: 38px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color:white;
+                    -webkit-border-radius: 19px;
+                    -moz-border-radius: 19px;
+                    border-radius: 19px;
+                }
+            }
+        }
+        .see-all{
+            background: #f1f1f1;
+            -webkit-border-radius: 25px;
+            -moz-border-radius: 25px;
+            border-radius: 25px;
+            display: flex;
+            justify-content: center;
+            padding: 11px 0;
+            margin-bottom: 40px;
+            font-weight: 700;
+        }
+        .nibble-shop{
+            .line{
+                margin-bottom: 24px;
+            }
+            .nibble-shop__products{
+                justify-content: space-between;
+                display: flex;
+                .product-image{
+                    img{
+                        width: 136px;
+                        height: 136px;
+                        -webkit-border-radius: 8px;
+                        -moz-border-radius: 8px;
+                        border-radius: 8px;
+                        -webkit-box-shadow: 0px 4px 16px #DBE2E6;
+                        -moz-box-shadow: 0px 4px 16px #DBE2E6;
+                        box-shadow: 0px 4px 16px #DBE2E6;
+                        margin-bottom: 16px;
+                    }
+                }
+            }
+        }
+
+        .nft-drops{
+            .line{
+                margin-bottom: 24px;
+            }
+            .nft-footer{
+                display: flex;
+                justify-content: space-between;
+                .sweet{
+                    background-color: #000;
+                    width:350px;
+                    height: 136px;
+                    height: 136px;
+                    -webkit-border-radius: 8px;
+                    -moz-border-radius: 8px;
+                    border-radius: 8px;
+                    -webkit-box-shadow: 0 4px 16px rgba(0 0 0 /12%);
+                    -moz-box-shadow: 0 4px 16px rgba(0 0 0 /12%);
+                    box-shadow: 0 4px 16px rgba(0 0 0 /12%);
+                    background-image: url(../img/ice.png);
+                    background-repeat: no-repeat;
+                    background-position: right;
+                    display: flex;
+                    width:48%;
+                    .sweet-text{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        img{
+                            margin-left:24px;
+                            margin-bottom: 11px;
+                        }
+                    }
+                }
+                .move{
+                    background: #e4e4e4;
+                    width:48%;
+                    height: 136px;
+                    -webkit-border-radius: 8px;
+                    -moz-border-radius: 8px;
+                    border-radius: 8px;
+                    -webkit-box-shadow: 0 4px 16px rgba(0 0 0 /12%);
+                    -moz-box-shadow: 0 4px 16px rgba(0 0 0 /12%);
+                    box-shadow: 0 4px 16px rgba(0 0 0 /12%);
+                }
+            }
+
+        }
+
+    }
+}

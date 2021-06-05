@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:500,600,700,800,900">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="wrapper">
+    <aside>
+        <div class="logo">
+            <img src="img/logo.png" alt="">
+        </div>
+        <div class="iconLion">
+            <img src="img/lion.svg" alt="">
+        </div>
+        <div class="account">
+            <div class="name">0xf13...a184 <i class="fas fa-chevron-down"></i></div>
+            <div class="status">disconnect</div>
+        </div>
+
+        <div class="date today">
+            <div class="day">Today</div>
+            <div class="line">
+                <div class="left">
+                    <div class="icon">
+                        <img src="img/dollar.png" class="dollar" alt="">
+                    </div>
+                    <div class="title">
+                        Deposit in Savings <p>11,984.4953 USDC</p>
+                    </div>
+                </div>
+                <div class="money">
+                    -<i class="fas fa-dollar-sign"></i>11,984.49
+                </div>
+            </div>
+            <div class="line">
+                <div class="left">
+                    <div class="icon">
+                        <img src="img/dollar.png" class="dollar" alt="">
+                    </div>
+                    <div class="title">
+                        Withdraw from Savings <p>2,000.00 USDC</p>
+                    </div>
+                </div>
+                <div class="money">
+                    +<i class="fas fa-dollar-sign"></i>2,000.00
+                </div>
+            </div>
+        </div>
+        <div class="date yesterday">
+            <div class="day">Yesterday</div>
+            <div class="line">
+                <div class="left">
+                    <div class="icon">
+                        <img src="img/logo.png" class="icon-logo" alt="">
+                    </div>
+                    <div class="title">
+                        Encrease Boost <p>11,984.4953 MOVE</p>
+                    </div>
+                </div>
+                <div class="money">
+                    -<i class="fas fa-dollar-sign"></i>110,071.11
+                </div>
+            </div>
+            <div class="line">
+                <div class="left">
+                    <div class="icon">
+                        <img src="img/logo.png" class="icon-logo" alt="">
+                        <img src="img/ethereum.png" class="ethereum" alt="">
+                    </div>
+                    <div class="title ">
+                        Decrease Boost <p>6.6212 SLP</p>
+                    </div>
+                </div>
+                <div class="money">
+                    +<i class="fas fa-dollar-sign"></i>8,121.04
+                </div>
+            </div>
+        </div>
+        <div class="date before-yesterday">
+            <div class="day">03 May</div>
+            <div class="line">
+                <div class="left">
+                    <div class="icon ">
+                        <img src="img/dollar.png" class="dollar" alt="">
+                    </div>
+                    <div class="title">
+                        Receive <p>24.9560 USDC</p>
+                    </div>
+                </div>
+                <div class="money">
+                    +<i class="fas fa-dollar-sign"></i>1,206.13
+                </div>
+            </div>
+            <div class="line">
+                <div class="left">
+                    <div class="icon">
+                        <img src="img/logo.png" class="icon-logo" alt="">
+                    </div>
+                    <div class="title">
+                        Burn <p>24.9560 MOVE</p>
+                    </div>
+                </div>
+                <div class="money">
+                    -<i class="fas fa-dollar-sign"></i>406.13
+                </div>
+            </div>
+            <div class="line">
+                <div class="left">
+                    <div class="icon">
+                        <img src="img/electr.png" class="electr" alt="">
+                    </div>
+                    <div class="title">
+                        Receive <p>1.1744 RUNE</p>
+                    </div>
+                </div>
+                <div class="money">
+                    +<i class="fas fa-dollar-sign"></i>363.28
+                </div>
+            </div>
+            <div class="line">
+                <div class="left">
+                    <div class="icon">
+                        <img src="img/logo.png" class="icon-logo" alt="">
+                    </div>
+                    <div class="title">
+                        Swap <p>24.9560 MOVE</p>
+                    </div>
+                </div>
+                <div class="money">
+                    -<i class="fas fa-dollar-sign"></i>364.28
+                </div>
+            </div>
+            <div class="line">
+               <div class="left">
+                   <div class="icon">
+                       <img src="img/logo.png" class="icon-logo" alt="">
+                   </div>
+                   <div class="title">
+                       Approve <p>24.9560 MOVE</p>
+                   </div>
+               </div>
+                <div class="money">
+                    -<i class="fas fa-dollar-sign"></i>0.00
+                </div>
+            </div>
+
+        </div>
+    </aside>
+
+    <main>
+        <div class="category balance">
+            <div class="your-balance">
+                <i class="fas fa-dollar-sign"></i>154,849.94
+            </div>
+            <div class="info">Your wallet balance</div>
+        </div>
+
+        <div class="category tokens">
+            <div class="left">
+                <div class="line">
+                    <div class="title">Release Radar</div>
+                    <img src="img/list-icon.png" alt="">
+                </div>
+                <div class="info">There are <span class="new-token">34</span> new tokens for you</div>
+            </div>
+            <div class="right">
+                <div class="line">
+                    <div class="title">Swaps</div>
+                    <img src="img/list-icon.png" alt="">
+                </div>
+                <div class="info">Swap cost is around <span class="swap">$34.57</span> now</div>
+            </div>
+        </div>
+
+        <div class="category debit-card">
+            <div class="line">
+                <div class="title">Debit Card</div>
+                <img src="img/list-icon.png" alt="">
+            </div>
+            <div class="debit-card__order">
+                <div class="order-head">
+                    <div class="order-left">
+                        <div class="title">Great news!</div>
+                        <div class="info">You can now order the Beautiful debit card brought to you by Mover and Trastra.</div>
+                    </div>
+                    <div class="card-image">
+                        <img src="img/card.png" alt="">
+                    </div>
+                </div>
+                <div class="order-footer">
+                    <div class="order-card">Order the card</div>
+                    <div class="close"><i class="fas fa-times"></i></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="category earned">
+            <div class="line">
+                <div class="saving">22,984.49 in Savings</div>
+                <img src="img/list-icon.png" alt="">
+            </div>
+            <div class="info">You earned +$<span>24.89</span> today</div>
+        </div>
+
+        <div class="category bonus">
+            <div class="line">
+                <div class="bonuses">$<span class="bonus">864.17</span> Treasury Bonuses</div>
+                <img src="img/list-icon.png" alt="">
+            </div>
+            <div class="info">Treasury brought you +$ <span class="brought">24.89</span> today</div>
+        </div>
+
+        <div class="category governance">
+            <div class="line">
+                <div class="title">Governance</div>
+                <img src="img/list-icon.png" alt="">
+            </div>
+            <div class="governance_footer">
+                <div class="governance-analys">
+                    <div class="analys-progress">
+                        <img src="img/progress.png" alt="">
+                    </div>
+                    <div class="right">
+                        <div class="title">Governance Analysis Period</div>
+                        <div class="info">Voting is open</div>
+                    </div>
+                </div>
+                <div class="governance-vote">Vote</div>
+            </div>
+        </div>
+
+        <div class="see-all">See All</div>
+
+        <div class="category nibble-shop">
+            <div class="line">
+                <div class="title">Nibble Shop</div>
+                <img src="img/list-icon.png" alt="">
+            </div>
+            <div class="nibble-shop__products">
+                <div class="nibble-shop__product">
+                    <div class="product-image">
+                        <img src="img/hat.png" alt="">
+                    </div>
+                    <div class="product-title">
+                        Cap
+                    </div>
+                </div>
+                <div class="nibble-shop__product">
+                    <div class="product-image">
+                        <img src="img/mask.png" alt="">
+                    </div>
+                    <div class="product-title">
+                        Face Mask
+                    </div>
+                </div>
+                <div class="nibble-shop__product">
+                    <div class="product-image">
+                        <img src="img/tshirt1.png" alt="">
+                    </div>
+                    <div class="product-title">
+                        Classic T-Shirt
+                    </div>
+                </div>
+                <div class="nibble-shop__product">
+                    <div class="product-image">
+                        <img src="img/tshirt2.png" alt="">
+                    </div>
+                    <div class="product-title">
+                        Power T-Shirt
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="category nft-drops">
+            <div class="line">
+                <div class="nft-title">NFT Drops</div>
+                <img src="img/list-icon.png" alt="">
+            </div>
+            <div class="nft-footer">
+                <div class="sweet">
+                    <div class="sweet-text">
+                        <img src="img/sweet.svg" alt="" width="126" height="31">
+                        <img src="img/sour.svg" alt="" width="133" height="31">
+                    </div>
+                </div>
+                <div class="move">
+                    <img src="img/move.png" height="136" alt="">
+                </div>
+            </div>
+        </div>
+    </main>
+</div>
+
+
+<script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,347 @@
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.wrapper aside {
+  width: 27%;
+  padding: 25px;
+  background: #F6F6F6;
+}
+.wrapper aside .logo img {
+  width: 40px;
+  -webkit-box-shadow: 0 0 16px rgba(0, 54, 35, 0.5);
+          box-shadow: 0 0 16px rgba(0, 54, 35, 0.5);
+  border-radius: 8px;
+}
+.wrapper aside .iconLion {
+  width: 80px;
+  height: 80px;
+  background: #FFE67D;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.wrapper aside .account .name {
+  font-weight: 500;
+}
+.wrapper aside .account .name i {
+  margin-left: 15px;
+}
+.wrapper aside .account .status {
+  font-size: 12px;
+  color: rgba(60, 60, 67, 0.6);
+}
+.wrapper aside .date {
+  margin-top: 40px;
+  font-size: 16px;
+  color: rgba(60, 60, 67, 0.6);
+}
+.wrapper aside .date .day {
+  margin-bottom: 24px;
+}
+.wrapper aside .date .line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 18px;
+}
+.wrapper aside .date .line .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.wrapper aside .date .line .left .icon {
+  position: relative;
+}
+.wrapper aside .date .line .left .icon img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.wrapper aside .date .line .left .icon .dollar {
+  -webkit-box-shadow: 0 2px 16px rgba(53, 119, 190, 0.5);
+  box-shadow: 0 2px 16px rgba(53, 119, 190, 0.5);
+}
+.wrapper aside .date .line .left .icon .icon-logo {
+  -webkit-box-shadow: 0 0 16px rgba(16, 9, 32, 0.5);
+  box-shadow: 0 0 16px rgba(16, 9, 32, 0.5);
+}
+.wrapper aside .date .line .left .icon .electr {
+  -webkit-box-shadow: 0 0 16px #00E4D3;
+  box-shadow: 0 0 16px #00E4D3;
+}
+.wrapper aside .date .line .left .icon .ethereum {
+  position: absolute;
+  left: 50%;
+  -webkit-box-shadow: 0 0 16px #627EEA;
+  box-shadow: 0 0 16px #627EEA;
+}
+.wrapper aside .date .line .left .title {
+  font-size: 14px;
+  color: #000;
+  margin-top: 7px;
+  margin-left: 18px;
+}
+.wrapper aside .date .line .left .title p {
+  font-size: 12px;
+  color: rgba(60, 60, 67, 0.6);
+  margin-bottom: 0;
+}
+.wrapper aside .date .line .money {
+  font-size: 14px;
+  color: #000;
+  margin-top: 10px;
+}
+.wrapper aside .yesterday .line:last-child .title {
+  margin-left: 40px !important;
+}
+.wrapper main {
+  background: #FAFAFC;
+  padding: 104px 160px;
+  width: 73%;
+}
+.wrapper main .balance {
+  margin-bottom: 40px;
+}
+.wrapper main .balance .your-balance {
+  font-size: 48px;
+}
+.wrapper main .balance .info {
+  font-size: 14px;
+  color: rgba(60, 60, 67, 0.6);
+}
+.wrapper main .tokens {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.wrapper main .category {
+  margin-bottom: 40px;
+}
+.wrapper main .category .line {
+  font-weight: 700;
+  font-size: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.wrapper main .category .line .title {
+  font-weight: 700;
+  font-size: 24px;
+}
+.wrapper main .category .info {
+  color: rgba(60, 60, 67, 0.6);
+  font-size: 14px;
+}
+.wrapper main .tokens {
+  margin-bottom: 40px;
+}
+.wrapper main .tokens .left, .wrapper main .tokens .right {
+  width: 46%;
+}
+.wrapper main .debit-card .line {
+  margin-bottom: 24px;
+}
+.wrapper main .debit-card .debit-card__order {
+  -webkit-box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+  background: #fff;
+  border-radius: 8px;
+  padding: 24px;
+  margin-bottom: 40px;
+}
+.wrapper main .debit-card .debit-card__order .order-head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.wrapper main .debit-card .debit-card__order .order-head .order-left .title {
+  font-weight: 700;
+  font-size: 24px;
+}
+.wrapper main .debit-card .debit-card__order .order-footer {
+  margin-top: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.wrapper main .debit-card .debit-card__order .order-footer .order-card {
+  height: 40px;
+  width: 148px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #000;
+  color: #fff;
+  border-radius: 25px;
+  margin-right: 16px;
+}
+.wrapper main .debit-card .debit-card__order .order-footer .close {
+  background: #000;
+  width: 40px;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  border-radius: 50%;
+}
+.wrapper main .governance .line {
+  margin-bottom: 24px;
+}
+.wrapper main .governance .governance_footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.wrapper main .governance .governance_footer .governance-analys {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.wrapper main .governance .governance_footer .governance-analys .analys-progress {
+  margin-right: 9px;
+}
+.wrapper main .governance .governance_footer .governance-vote {
+  background: #000;
+  width: 91px;
+  height: 38px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+  border-radius: 19px;
+}
+.wrapper main .see-all {
+  background: #f1f1f1;
+  border-radius: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 11px 0;
+  margin-bottom: 40px;
+  font-weight: 700;
+}
+.wrapper main .nibble-shop .line {
+  margin-bottom: 24px;
+}
+.wrapper main .nibble-shop .nibble-shop__products {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.wrapper main .nibble-shop .nibble-shop__products .product-image img {
+  width: 136px;
+  height: 136px;
+  border-radius: 8px;
+  -webkit-box-shadow: 0px 4px 16px #DBE2E6;
+  box-shadow: 0px 4px 16px #DBE2E6;
+  margin-bottom: 16px;
+}
+.wrapper main .nft-drops .line {
+  margin-bottom: 24px;
+}
+.wrapper main .nft-drops .nft-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.wrapper main .nft-drops .nft-footer .sweet {
+  background-color: #000;
+  width: 350px;
+  height: 136px;
+  height: 136px;
+  border-radius: 8px;
+  -webkit-box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+  background-image: url(../img/ice.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 48%;
+}
+.wrapper main .nft-drops .nft-footer .sweet .sweet-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.wrapper main .nft-drops .nft-footer .sweet .sweet-text img {
+  margin-left: 24px;
+  margin-bottom: 11px;
+}
+.wrapper main .nft-drops .nft-footer .move {
+  background: #e4e4e4;
+  width: 48%;
+  height: 136px;
+  border-radius: 8px;
+  -webkit-box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+}
