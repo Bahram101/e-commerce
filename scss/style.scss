@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
 body{
     font-family: 'Inter', sans-serif;
@@ -127,8 +128,13 @@ body{
             margin-bottom: 40px;
             .your-balance{
                 font-size: 48px;
-                i{
-
+                position: relative;
+                left: -15px;
+                img{
+                    width: 43px;
+                    position: relative;
+                    left: 5px;
+                    top: -4px;
                 }
             }
             .info{
@@ -231,6 +237,50 @@ body{
                     display: flex;
                     .analys-progress{
                         margin-right: 9px;
+                        position: relative;
+                        top: -4px;
+                        left:-5px;
+                        svg{
+                            width: 52px;
+                            height: 52px;
+                            position: relative;
+                            transform-origin: center;
+                            transform: rotate(-90deg);
+                            circle{
+                                width: 55px;
+                                height: 55px;
+                                fill: none;
+                                stroke-width: 3px;
+                                stroke:#000;
+                                position: absolute;
+                                transform:translate(5px,5px);
+                                stroke-dasharray: 440;
+                                stroke-dashoffset: 440;
+                                stroke-linecap: round;
+                                &:nth-child(1){
+                                    stroke-dashoffset: 0;
+                                    stroke:#EEEDED;
+                                }
+                                &:nth-child(2){
+                                    stroke-dashoffset: calc(440 - (440 * 15) / 100);
+                                    stroke:#000;
+                                }
+                            }
+
+                        }
+                        .box{
+                            position: absolute;
+                            width: 36px;
+                            height: 36px;
+                            background: #EEEDED;
+                            border-radius: 50%;
+                            left: 50%;
+                            top: 50%;
+                            transform: translate(-48%,-52%);
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                        }
                     }
                 }
                 .governance-vote{
